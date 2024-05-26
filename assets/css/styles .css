@@ -1,53 +1,43 @@
-/* Селектор тешу (типу) - 0001 */
-h1 {
-  color: blue;
-  font-family: initial;
-  /* вимикає спадкування */
-  border: inherit;
-  /* вмикає спадкування */
-}
-body {
-  font-family: sans-serif; 
-  border: 5px red solid;
-  text-align: center;
-}
-
-
-/* Селектор класу 0010 */
-.annotation {
-font-size: 10px;  
-}
+/* Блокова модель */
 
 p {
-  font-size: 20px;
-  font-family: monospace;
-  }
-
-/* Селектор ідентітфікатора 0100 */
-#subscribe-btn {
-  color: red;
+  width: 200px;
+  height: 300px;
+  /* background-color: blanchedalmond; */
+  border: 1px solid red;
+  padding: 20px;
+  margin: 10px;
+  /* display: inline; */
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* приклад */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* subscribe-btn : kebab-case
-subscrabeBtn  : camelCase (
-                lowerCamelCase
-                UpperCamelCase (PascalCase)
-              )
-subscrabe_btn : snake_case
-I_AM_CONSTATNT
-*/
 
+.nav-link-item {
+  display: inline;
+  color: inherit;
+}
 
-
-/* 
-каскадність - якщо одна і та сама властивість визначена для одного і того самого селектора, то пріорітетна та, що оголошена останньою
- */
-
- /* спеціфічність (вага) якщо одна і та сама властивість записана в різних по спеціфічності селектроах, то приоритетніша в селекторі з більшою спеціфічністю*/
-
- /* спадкування - властивості для  */
