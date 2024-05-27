@@ -1,17 +1,24 @@
 /* Блокова модель */
+* {
+  box-sizing: border-box;
+}
+
 body {
   /* text-align: right; */
+  margin: 0;
 }
+
 p {
-  width: 200px;
-  /* height: 300px; */
+  width: 100%;
+ 
   /* background-color: blanchedalmond; */
-  border: 1px solid red;
+  border: 5px solid red;
   padding: 20px;
-  margin: 10px;
+
 
   display: inline-block;
-  vertical-align: middle;
+  box-sizing: border-box;
+  
   /* display: inline; */
 }
 
