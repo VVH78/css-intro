@@ -3,9 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Static Template</title>
+  <style>
+    body {
+      font-size: 36px; /* задля наочності, не впливає на прийом */
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .parent1 {
+      border: 5px solid green;
+      font-size: 0;
+    }
+    .child1 {
+      border: 5px solid red;
+      display: inline-block;
+      width: 50%;
+      font-size: 40px;
+    }
+  </style>
 </head>
 <body>
-  
+<!-- 2 блоки по полоивні ширини -->
+  <div class="parent1">
+    <div class="child1">1</div>
+    <div class="child1">2</div>
+  </div>
+
+  <!-- 3 блоки по тритині ширини -->
+  <div class="parent2">
+    <div class="child2">a</div>
+    <div class="child2">b</div>
+    <div class="child2">c</div>
+  </div>
 </body>
 </html>
